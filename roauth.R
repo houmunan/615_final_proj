@@ -13,4 +13,6 @@ my_oauth <- OAuthFactory$new(consumerKey = consumerKey, consumerSecret = consume
 my_oauth$handshake(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))
 save(my_oauth, file = "my_oauth.Rdata")
 
+
+
 4647567
